@@ -1,0 +1,112 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Sketchup glTF Exporter by Evan Prananta."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+    }
+  ],
+  "nodes": [
+    {
+      "name": "root",
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.6121,
+          0.6121,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Color A01",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 64,
+      "type": "VEC3",
+      "min": [
+        0.0,
+        -1.8369701987210297e-16,
+        -3.0
+      ],
+      "max": [
+        3.000000000000001,
+        2.62,
+        7.347880794884119e-16
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 64,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 114,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 768,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 768,
+      "byteLength": 768,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1536,
+      "byteLength": 228,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,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",
+      "byteLength": 1764
+    }
+  ]
+}
